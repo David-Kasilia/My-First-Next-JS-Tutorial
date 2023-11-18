@@ -1,5 +1,7 @@
+import "@styles/globals.css";
+
 export const metadata = {
-  title: "Layout",
+  title: "PromptVerse",
   description: "Layout",
 };
 
