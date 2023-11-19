@@ -5,7 +5,8 @@ const LogIn = () => {
   return (
     <button onClick={(e) => signIn( 
       e.preventDefault(),
-      'google')}>Sign In</button>
+      'google',
+      'github')}>Sign In</button>
   )
 };
 
