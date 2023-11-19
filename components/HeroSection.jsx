@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="hero-section container mx-auto mt-24 text-center">
+    <section className="hero-section container mx-auto mt-12 text-center">
       <div className="container mx-auto">
         <h1 className="mb-5 font-bold text-6xl">PromptVerse</h1>
         <h2 className="text-black mb-8 font-semibold text-3xl">
