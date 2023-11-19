@@ -12,6 +12,8 @@ const NavBar = () => {
 
   const [toggleDropDown, setToggleDropDown] = useState(false);
 
+  const session = useSession();
+
   useEffect(() => {
     const getProvidersList = async () => {
       const providers = await getProviders();
