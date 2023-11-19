@@ -4,8 +4,9 @@ import NavBar from "@components/NavBar";
 import Provider from "@components/Provider";
 import Footer from "@components/Footer";
 import { getServerSession } from "next-auth";
-import LogIn from "./auth/LogIn";
-import handler from "./api/auth/[...nextauth]";
+import LogIn from "./LogIn";
+import handler from "@pages/api/auth/[...nextauth]";
+
 
 export const metadata = {
   title: "PromptVerse",
